@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size: 16px; */
+    /* font-weight: 400; */
+}
+body{
+    width: 60%;
+    padding: 3px;
+    border: 0px solid #f7f7f7  ;
+   
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.font{
+    font-size: 30px;
+}
+.hearder{
+    background-color:#fbfbfb;
+    color: grey;
+}
+.more{
+    background-color: white;
+    color: rgb(152, 147, 147);
+    border: 1px solid rgb(176, 174, 174);
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hearder h1{
+    text-align: center;
+}
+.hearder p{
+   text-align: center;
+}
+.title .download{
+    background-color:#4696e5;
+    color: aliceblue;
+    width: 128px;
+    text-decoration: none;
+    border-radius: 4px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+button{
+    
+    gap: 10px;
+    border: 0px;
+}
+
+.six{
+    background-color:#f7f7f7;
+    color: #b0b0b0;
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+}
+.fa-download{
+    position: absolute;
+    left: 340px;
+    top: 200px;
+    color: white;
+    
+}
+
