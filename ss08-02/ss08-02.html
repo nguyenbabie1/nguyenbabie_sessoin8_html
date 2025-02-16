@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+   <link rel="stylesheet" href="bai2.css">
+</head>
+
+<body>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>
+                    <div class="name">
+                        <label>Name</label>
+                    </div>
+                    <div>
+                        <input type="text" name="name" id="name"required>
+                    </div>
+                </td>
+                <td>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" required></textarea>
+                </td>
+            </tr>
+        </table>
+        <button type="submit" class="button">SEND MESSAGE</button>
+    </form>
+</body>
+
+</html>
